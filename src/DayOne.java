@@ -3,7 +3,7 @@ public class DayOne {
     public static void main(String[] args) {
 
       int a = 5;
-      int b = -5;
+      int b = -10;
 
       // TODO - use && (AND)
       // TODO - use || (OR)
