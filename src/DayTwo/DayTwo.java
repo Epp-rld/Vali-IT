@@ -6,7 +6,7 @@ public class DayTwo {
 
         String university = "University of ";
         String tallinn = "Tallinn";
-        String fullName = university.concat(tallinn);
+        String fullName = university + tallinn;
 
         System.out.println(fullName);
     }
