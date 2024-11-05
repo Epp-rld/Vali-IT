@@ -4,8 +4,9 @@ public class DayTwo {
 
     public static void main(String[] args) {
 
-        String string = "Hello";
+        String string = "Hello, world!";
 
-        System.out.println(string.replace('o', 'a'));
+        System.out.println(string.startsWith("Hello"));
+        System.out.println(string.endsWith("world!"));
     }
 }
