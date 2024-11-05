@@ -5,21 +5,17 @@ import java.util.Scanner;
 public class DayTwo {
 
     public static void main(String[] args) {
-        double num1, num2;
+        double num1;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the first number:");
+        System.out.println("Enter the number:");
         num1 = sc.nextDouble();
 
-        System.out.println("Enter the second number:" );
-        num2 = sc.nextDouble();
-
-        System.out.println("Enter the operator (+,-,*,/):");
-        System.out.println(num1 + num2);
-        System.out.println(num1 - num2);
-        System.out.println(num1 * num2);
-        System.out.println(num1 / num2);
-
+        if (num1 % 2 == 0) {
+            System.out.println("Even number");
+        } else {
+            System.out.println("Odd number");
         }
 
     }
+}
