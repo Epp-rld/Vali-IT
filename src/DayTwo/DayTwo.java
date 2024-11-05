@@ -4,9 +4,9 @@ public class DayTwo {
 
     public static void main(String[] args) {
 
-        String hello = "HELLO WORLD";
-        String helloWorld = hello.toLowerCase();
+        String hello = "Hello, world";
+        String substring = "world";
 
-        System.out.println(helloWorld);
+        System.out.println(hello.contains(substring));
     }
 }
