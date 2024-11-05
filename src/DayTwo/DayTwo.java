@@ -4,11 +4,10 @@ public class DayTwo {
 
     public static void main(String[] args) {
 
-        String incomingText = "Aadress Tallinn, kesklinn";
-        StringBuilder sb = new StringBuilder(incomingText);
-        sb.append(", tänav");
+        String university = "University of ";
+        String tallinn = "Tallinn";
+        String fullName = university.concat(tallinn);
 
-    String string = sb.toString();
-        System.out.println(string);
+        System.out.println(fullName);
     }
 }
