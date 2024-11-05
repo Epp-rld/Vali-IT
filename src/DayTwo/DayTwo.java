@@ -4,8 +4,8 @@ public class DayTwo {
 
     public static void main(String[] args) {
 
-        String hello = "hello world";
-        String helloWorld = hello.toUpperCase();
+        String hello = "HELLO WORLD";
+        String helloWorld = hello.toLowerCase();
 
         System.out.println(helloWorld);
     }
