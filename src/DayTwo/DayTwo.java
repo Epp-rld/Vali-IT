@@ -6,6 +6,6 @@ public class DayTwo {
 
         String string = "Hello";
 
-        System.out.println(string.replace('H', 'Y'));
+        System.out.println(string.replace('o', 'a'));
     }
 }
