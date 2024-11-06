@@ -3,10 +3,24 @@ package DayThree;
 public class DayThree {
 
     public static void main(String[] args) {
-    boolean checkIfNumberIsEven = isEven(4);
-        System.out.println(checkIfNumberIsEven);
+        int id = 1;
+        getUser(id);
     }
-    public static boolean isEven(int number) {
-        return number % 2 == 0;
+
+    private static void getUser(int id) {
+        getUserFullName(id);
+        getUserAge(id);
+    }
+
+    private static String getUserFullName(int userID) {
+        // Simulate fetching from database
+        System.out.println("Name");
+        String userFullName = "John Doe";
+        return userFullName;
+    }
+    private static int getUserAge(int userID) {
+        System.out.println("Age");
+        int age = 30;
+        return age;
     }
 }
