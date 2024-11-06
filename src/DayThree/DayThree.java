@@ -3,11 +3,10 @@ package DayThree;
 public class DayThree {
 
     public static void main(String[] args) {
-    String hello = getGreeting();
-    int length = hello.length();
-        System.out.println(hello);
+    boolean checkIfNumberIsEven = isEven(4);
+        System.out.println(checkIfNumberIsEven);
     }
-    private static String getGreeting(){
-        return "Hello World!";
+    public static boolean isEven(int number) {
+        return number % 2 == 0;
     }
 }
