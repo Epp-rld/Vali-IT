@@ -3,36 +3,26 @@ package DayThree;
 public class DayThree {
 
     public static void main(String[] args) {
-        getPerson();
-
-        // getAge(); võiks olla ka private static void getName() skoobis.
+        getArea(4,5);
     }
-    // Lisame meetodi, mis prindib ekraanile Hello.
+// TODO - loo uus meetod private static void getArea(), mis arvutab ristküliku pindala
+// TODO - kutsu see main meetodist välja argumendi väärtustega 4 ja 5
+// TODO - loo uus meetod nimetusega private static void checkArea()
+// TODO - kutsu checkArea() meetod välja getArea() meetodist
+// TODO - prindi konsooli "Area is bigger than 20", kui pindala suurus ületab 20 ...
+//  TODO - ... ja "Area is smaller than 20", kui alla selle
 
-    // TODO - Loo uus meetod private static void getName() ja kutsu main meetodist välja
-    // TODO - getName() meetodi sees prindi konsooli "John"
-
-    private static void getPerson() {
-        System.out.println("Checking user details:");
-        getName();
-        checkUserAge();
-    }
-
-    private static void getName() {
-        System.out.println("John");
-        // getAge(); võiks olla ka siin.
+    private static void getArea(int length, int width) {
+        int area = length * width;
+        System.out.println("The area of the rectangle is " + area);
+        checkArea(area);
     }
 
-    private static void checkUserAge() {
-        int age = 15;
-        if (age < 18) {
-            System.out.println("You are younger than 18 years.");
+    private static void checkArea(int area) {
+        if (area > 20) {
+            System.out.println("Area is bigger than 20.");
         } else {
-            getAge();
-        }
+            System.out.println("Area is smaller than 20.");
     }
-
-        private static void getAge() {
-        System.out.println("Age is: 30");
-    }
+}
 }
