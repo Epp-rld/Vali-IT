@@ -3,26 +3,15 @@ package DayThree;
 public class DayThree {
 
     public static void main(String[] args) {
-        getUser();
+        getName();
     }
-
     // Lisame meetodi, mis prindib ekraanile Hello.
 
-    private static void getUser() {
-        boolean isTrue = true;
-        System.out.println("Hello");
-        if (isTrue) {
-            getName();
-        }
+    // TODO - Loo uus meetod getName() ja kutsu main meetodist välja
+    // TODO - getName() meetodi sees prindi konsooli "John"
+
+    private static void getName() {
+        System.out.println("John");
+
     }
-        private static void getName() {
-            boolean isTrue = true;
-            System.out.println("John");
-            if (isTrue) {
-                getPassword();
-            }
-        }
-        private static void getPassword () {
-            System.out.println("Password");
-        }
-    }
+}
