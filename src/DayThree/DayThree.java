@@ -24,6 +24,15 @@ public class DayThree {
     }
 
     private static void checkUserAge() {
+        int age = 15;
+        if (age < 18) {
+            System.out.println("You are younger than 18 years.");
+        } else {
+            getAge();
+        }
+    }
+
+        private static void getAge() {
         System.out.println("Age is: 30");
     }
 }
