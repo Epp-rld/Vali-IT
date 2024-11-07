@@ -4,15 +4,16 @@ import java.util.Arrays;
 
 public class DayFour {
 
-    // TODO - Exercise 4: Even numbers between 1 and 20
-    // TODO - Write a program that uses a for loop to print all the even numbers between 1 and 20.
-    // TODO - Hint: For incrementing use: i += 1 (1 is just an example, use a correct value instead).
+    // TODO - Exercise 5: Multiplication Table
+    // TODO - Write a program that uses a for loop to print the multiplication table of 7.
+    // TODO - Provide the table up to 7 x 10 = 70, meaning limit loop to repeat 10 times.
+    // TODO - Hint: Wjen printing the results, use variables values and Strings.
 
     public static void main(String[] args) {
-        for (int i = 1; i <= 20; i++) {
-            if (i % 2 == 0) {
-                System.out.println(i);
+        int n = 7;
+        for (int i = 1; i <= 10; i++) {
+
+                System.out.println(n + " x " + i + " = " + n * i);
             }
         }
     }
-}
