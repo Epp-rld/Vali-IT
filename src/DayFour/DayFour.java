@@ -4,16 +4,13 @@ import java.util.Arrays;
 
 public class DayFour {
 
-    // TODO - Exercise 5: Multiplication Table
-
     public static void main(String[] args) {
-        multiplicationTable();
-    }
-
-    private static void multiplicationTable() {
-        int n = 7;
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(n + " x " + i + " = " + n * i);
+        for (int count =1; count <= 5; count ++) {
+            if (count ==3) { // Check if count is 3.
+                break; // Exit the loop if count is 3.
+            }
+            System.out.println("Well done, we found Markus on the list.");
+            System.out.println("Count is: " + count); // Print count if it's not 3.
         }
     }
 }
