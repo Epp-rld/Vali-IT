@@ -8,9 +8,7 @@ public class DayThree {
         String[] carBrand = {"Tesla", "Honda", "Audi"};
         String[] carModel =  {"Model S", "Civic", "A3"};
 
-        carModel[0] = "Model 3";
-
-        Arrays.sort(carBrand);
+        Arrays.sort(carBrand); // Järjestab autobrändid tähestiku järjekorras
         System.out.println(Arrays.toString(carBrand));
 
         System.out.println(carBrand[1] + " " + carModel[1]);
