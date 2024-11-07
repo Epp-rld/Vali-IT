@@ -4,14 +4,15 @@ import java.util.Arrays;
 
 public class DayFour {
 
-    // TODO - Exercise 4: Array Length Property:
-    // TODO - Task: Create an array {8, 6, 7, 5, 3, 0, 9} and print its length.
-    //  TODO - Hint: Use array.length to get the length of an array.
+    // TODO - Exercise 5: Sum of Elements (Without Loop):
+    // TODO - Task: Calculate the sum of elements in an array {4, 2, 8, 1, 6} and store it in a variable.
+    //  TODO - Hint: Manually add each element: int sum = array[0] + array[1] + ... + array[4];
 
 
     public static void main(String[] args) {
-        int[] myArray = {8, 6, 7, 5, 3, 0, 9};
+        int[] myArray = {4, 2, 8, 1, 6};
+        int sum = myArray[0] + myArray[1] + myArray[2] + myArray[3] + myArray[4];
 
-        System.out.println(myArray.length);
+        System.out.println(sum);
     }
 }
