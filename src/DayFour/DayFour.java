@@ -4,17 +4,15 @@ import java.util.Arrays;
 
 public class DayFour {
 
-    // TODO - Exercise 3: Sum of numbers
-    // TODO - Write a program that uses a while loop to calculate the sum of the first 100 positive integers.
-    // TODO - Hint: while (<boolean expression> {}
+    // TODO - Exercise 4: Even numbers between 1 and 20
+    // TODO - Write a program that uses a for loop to print all the even numbers between 1 and 20.
+    // TODO - Hint: For incrementing use: i += 1 (1 is just an example, use a correct value instead).
 
     public static void main(String[] args) {
-        int sum = 0;
-        int count = 1;
-        while (count <= 100) {
-            sum += count;
-            count++;
+        for (int i = 1; i <= 20; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
         }
-        System.out.println(sum);
     }
 }
