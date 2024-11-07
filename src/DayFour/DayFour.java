@@ -4,17 +4,16 @@ import java.util.Arrays;
 
 public class DayFour {
 
-    // TODO - Exercise 4: Sum of Numbers - välja kutsuda main meetodist
+    // TODO - Exercise 5: Multiplication Table
 
     public static void main(String[] args) {
-        evenNumbersBetweenOneAndTwenty();
+        multiplicationTable();
     }
 
-    private static void evenNumbersBetweenOneAndTwenty() {
-        for (int i = 1; i <= 20; i++) {
-            if (i % 2 == 0) {
-                System.out.println(i);
-            }
+    private static void multiplicationTable() {
+        int n = 7;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + " x " + i + " = " + n * i);
         }
     }
 }
