@@ -4,14 +4,17 @@ import java.util.Arrays;
 
 public class DayFour {
 
-    // TODO - Exercise 2: Access Specific Elements:
-    // TODO - Access and print the third element in the array: {10, 20, 30, 40, 50}.
-    // TODO - Hint: Use array[2] (since arrays are zero-indexed).
+    // TODO - Exercise 3: Modify an Element:
+    // TODO - Task: Given an array {5, 10, 15, 20}, change the second element to 12
+    //  TODO - ... and print the entire array to see the change.
+    //  TODO - Hint: Assign a new value to array[1], then print the elements individually.
+
 
     public static void main(String[] args) {
-        int [] myArray = {10, 20, 30, 40, 50};
-        int i = myArray[2];
+        int [] myArray = {5, 10, 15, 20};
+        myArray[1]++;
+        myArray[1]++;
 
-        System.out.println(myArray[2]);
+        System.out.println(myArray[1]);
     }
 }
