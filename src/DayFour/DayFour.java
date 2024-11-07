@@ -4,15 +4,14 @@ import java.util.Arrays;
 
 public class DayFour {
 
-    public static void main(String[] args) {
-        String[] fruits = {"Apple", "Banana", "Orange"};
-        for (String fruit : fruits) {
-            // Siin andsime ette, mida tahame, et ta teeks.
-            // Tahame ühe elemendi kaupa stringi muutujat. Läheme tsüklisse ja prindime välja fruit.
-            // Programm valib array'st ühe elemendi, prindib välja ja liigub uude tsüklisse.
+    // TODO - Exercise 1: Print numbers 1 to 10
+    // TODO - Write a program that uses a for loop to print numbers from 1 to 10.
+    // TODO - Hint: for (int i = 0; i < myArray.length; i++)
 
-            System.out.println("Fruit: " + fruit);
-            // Tsükliline korduvus. Teev tegevust seni, kuni tervikkogum on läbi käidud.
+    public static void main(String[] args) {
+        for (int count = 1; count <= 10; count++) {
+            System.out.println(count);
+
         }
     }
 }
