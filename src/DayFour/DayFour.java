@@ -4,13 +4,15 @@ import java.util.Arrays;
 
 public class DayFour {
 
-    // TODO - Exercise 1: Print numbers 1 to 10
-    // TODO - Write a program that uses a for loop to print numbers from 1 to 10.
-    // TODO - Hint: for (int i = 0; i < myArray.length; i++)
+    // TODO - Exercise 2: Print out each car brand
+    // TODO - Create an array String[] cars to define array with elements "Ford", "Honda", "Audi".
+    // TODO - Using forEach loop print each car brand to the console.
+    // TODO - Hint: for (String car : cars) {}
 
     public static void main(String[] args) {
-        for (int count = 1; count <= 10; count++) {
-            System.out.println(count);
+        String[] cars = {"Ford", "Honda", "Audi"};
+        for (String car : cars) {
+            System.out.println(car);
 
         }
     }
