@@ -2,22 +2,22 @@ package DayFour;
 
 public class DayFour {
 
-    // TODO - Exercise 1: Find the first even number in a list
-    // TODO - Given an array of numbers, use a for loop to find the first even number in the array
-    // TODO - Once you find it, print it and exit the loop.
+    // TODO - Exercise 2: Print odd numbers from 1 to 20, skip multiples of 5
+    // TODO - Use a for loop to print all odd numbers between 1 and 20.
+    // TODO - If a number is a multiple of 5, skip it using continue.
 
     public static void main(String[] args) {
-        firstEvenNumber();
+        skipMultiplesOfFive();
 
     }
 
-    private static void firstEvenNumber() {
-        int[] myArray = {1, 3, 7, 4, 9, 10};
-        for (int i = 1; i < myArray.length; i++) {
-            if (myArray[i] % 2 == 0) {
-                System.out.println("The first even number is: " + myArray[i]);
-                break;
+    private static void skipMultiplesOfFive() {
+        for (int i = 1; i <= 20; i += 2) { // Only iterate odd numbers
+            // skip numbers that are multiples of five.
+            if (i % 5 == 0) {
+                continue;
             }
+            System.out.println(i);
         }
     }
 }
