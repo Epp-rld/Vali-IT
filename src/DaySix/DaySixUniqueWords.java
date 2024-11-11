@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.HashSet;
 
-public class DaySix {
+public class DaySixUniqueWords {
     public static void main(String[] args) {
         // Exercise 1: Find unique words from a sentence
         //Write a program that takes a sentence as input, splits it into words,
