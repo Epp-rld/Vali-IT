@@ -20,13 +20,14 @@ public class DaySixGuess {
 
         while ((guessNumber != rightNumber) && (attempts < maxAttempts)) {
             System.out.println("Enter the number from 1 to 50 you wish to guess: ");
-            guessNumber = sc.nextInt();
+            guessNumber = sc.nextInt(); // Ei tohi olla loop'ist väljaspool.
+            // Muidu kasutatakse iga tsükliga sama kasutajasisendit.
             attempts++;
 
             System.out.println("You guessed " + guessNumber);
             System.out.println("You have used " + attempts + " out of " + maxAttempts + " attempts.");
 
-            if (guessNumber != rightNumber) {
+            if (guessNumber != rightNumber) { // või: if(!(guessNumber == rightNumber))
                 System.out.println("Try again!");
             } else {
                 System.out.println("Correct! You win!");

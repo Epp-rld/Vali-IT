@@ -18,6 +18,7 @@ public class DaySixSet {
 
         Set<Character> vowels = new HashSet<>();
         vowels.add('a'); // Add vowels one by one. Saab ka set.of kasutada.
+        // Teine variant: Set<Character> vowels = Set.of('a', ...);
         vowels.add('e');
         vowels.add('i');
         vowels.add('o');
