@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Mari Tamm",
+    "age": 35,
+    "address": "Heina 9, Tallinn",
+    "kids": [
+      {
+        "name": "Emma Tamm",
+        "age": 12,
+        "isUnderage": true
+      },
+      {
+        "name": "Oliver Tamm",
+        "age": 17,
+        "isUnderage": true
+      }
+    ]
+  },
+  {
+    "name": "Toomas Kask",
+    "age": 57,
+    "address": "Salme 17, Tallinn",
+    "kids": [
+      {
+        "name": "Teodor Kask",
+        "age": 13,
+        "isUnderage": true
+      },
+      {
+        "name": "Malle Kask",
+        "age": 16,
+        "isUnderage": true
+      }
+    ]
+  },
+  {
+    "name": "Mart Kuusk",
+    "age": 45,
+    "address": "Pebre 3, Tallinn",
+    "kids": [
+      {
+        "name": "Joonas Kuusk",
+        "age": 14,
+        "isUnderage": true
+      },
+      {
+        "name": "Johanna Kuusk",
+        "age": 8,
+        "isUnderage": true
+      }
+    ]
+  },
+  {
+    "name": "Peeter Mänd",
+    "age": 32,
+    "address": "Sõle 57, Tallinn",
+    "kids": [
+      {
+        "name": "Joosep Mänd",
+        "age": 4,
+        "isUnderage": true
+      },
+      {
+        "name": "Maarja Mänd",
+        "age": 8,
+        "isUnderage": true
+      }
+    ]
+  }
+]
